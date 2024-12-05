@@ -6,8 +6,8 @@ $primary: hsl(260, 100%, 80%);
 
 html,
 body {
-	height: 100vh;
-	width: 100vw;
+	height: 1000vh;
+	width: 200vw;
 }
 
 body {
@@ -313,4 +313,8 @@ background-color: rgb(63, 63, 63);
 .col-sm-12-col-md-6 {
  margin-top: 200px;
  padding-bottom: 200px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
